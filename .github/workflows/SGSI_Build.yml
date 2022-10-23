@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
    inputs:
       ROM_URL:
-        description: https://bigota.d.miui.com/V13.0.10.0.SKDINXM/miui_VILIINGlobal_V13.0.10.0.SKDINXM_a054fd9ae0_12.0.zip
-        required: true
+        description: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus9ProOxygen/OnePlus9ProOxygen_22.I.08_GLO_0080_2105011324/OnePlus9ProOxygen_22.I.08_OTA_0080_all_2105011324_3685f6aa.zip      required: true
         default: ''
       TYPE:
         description: 'OS TYPE'
