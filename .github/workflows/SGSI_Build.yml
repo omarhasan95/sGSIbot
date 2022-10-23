@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
    inputs:
       ROM_URL:
-        description: 'ROM_URL'
+        description: https://bigota.d.miui.com/V13.0.10.0.SKDINXM/miui_VILIINGlobal_V13.0.10.0.SKDINXM_a054fd9ae0_12.0.zip
         required: true
         default: ''
       TYPE:
@@ -12,7 +12,7 @@ on:
         required: true
         default: 'Generic'
       ROM:
-        description: 'Name of Rom'
+        description: 'miui'
         required: true
         default: ''
       VERSION:
